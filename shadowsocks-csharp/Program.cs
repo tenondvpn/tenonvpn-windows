@@ -123,7 +123,7 @@ namespace Shadowsocks
                 string errorMsg = $"Exception Detail: {Environment.NewLine}{e.Exception}";
                 Logging.Error(errorMsg);
                 MessageBox.Show(
-                    $"{I18N.GetString("Unexpected error, shadowsocks will exit. Please report to")} https://github.com/shadowsocks/shadowsocks-windows/issues {Environment.NewLine}{errorMsg}",
+                    $"{I18N.GetString("Unexpected error, shadowsocks will exit. Please report to")} https://github.com/tenondvpn/tenonvpn-windows/issues {Environment.NewLine}{errorMsg}",
                     "Shadowsocks UI Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Application.Exit();
             }
